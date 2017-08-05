@@ -29,8 +29,15 @@ module.exports = {
     },
     devServer:{
         contentBase: path.join(__dirname, "dist"),
+        stats: "errors-only",
         compress: true,
-        port: process.env.PORT
+        port: process.env.PORT,
+        historyApiFallback: true,
+        headers: {
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, PATCH, OPTIONS",
+            "Access-Control-Allow-Headers": "X-Requested-With, content-type, Authorization"
+        },
     },
     plugins: [new HtmlWebpackPlugin({
          template: './src/index.html'

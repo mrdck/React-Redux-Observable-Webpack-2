@@ -1,7 +1,7 @@
 ## Installing 
 ```
-git clone https://github.com/mrdck/React-Webpack2-Babel-Starter-Files.git
-cd React-Webpack2-Babel-Starter-Files
+git clone https://github.com/mrdck/React-Redux-Observable-Webpack-2.git directory_name
+cd directory_name
 npm install
 ```
 
@@ -22,8 +22,18 @@ npm run start
 This starter pack contains :
 
 * React
-* Babel
+* Babel (with stage-0)
 * React-redux
 * Redux
-* CSS/SASS 
+* RxJS
+* Redux-Observable
+* Jest
+
+
+## Note
+
+I created this package based on my previous package which is available [here](https://github.com/mrdck/React-Webpack2-Babel-Starter-Files). The only difference is that following package is created
+for using Redux-Observable and RxJS in Redux to create Epic Reducers.
+
+
 

@@ -1,9 +1,16 @@
 import { combineReducers } from 'redux';
+import { combineEpics } from 'redux-observable';
 
 
-const Reducer = combineReducers({
+
+
+export const rootEpic = combineEpics(
+
+);
+
+export const Reducer = combineReducers({
 
 });
 
 
-export default Reducer
+

@@ -8,7 +8,7 @@ class App extends Component{
       <div>
           <h1>Hello World!</h1>
           <p>Now you can start coding</p>
-          <p>If you meet any problems please visit <a className="link" href="https://github.com/mrdck/React-Webpack2-Babel-Starter-Files">GitHub Page</a> and post your issue</p>
+          <p>If you meet any problems please visit <a className="link" href="https://github.com/mrdck/React-Redux-Observable-Webpack-2">GitHub Page</a> and post your issue</p>
           <i className="author">By Mateusz 'mrdck' Perlak</i>
       </div>
     )
